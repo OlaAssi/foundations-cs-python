@@ -18,5 +18,5 @@ def checkValid(address):
         print('Invalid Ipv4 address')
 
 
-
-checkValid("172.16.0.0")
+IPv4=input('enter address:')
+checkValid(IPv4)
