@@ -7,4 +7,4 @@ def factorial(n):
 N = input('Enter positive integer n:')
 if N.isdigit() and int(N) > 0:
     N = int(N)
-print('n! =', factorial(N))
+    print('n! =', factorial(N))
